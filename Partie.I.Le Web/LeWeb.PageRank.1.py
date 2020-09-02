@@ -16,7 +16,7 @@ szNom = len(nom)
 hyperliens = [[0,1,3],[2,3],[0,3],[2]]
 
 # Demande du nombre de tests souhaités converti en entier
-# Ne pas dépasser 1 millions de tests
+# Ne pas dépasser 1 million de tests
 nbEtapes = int(input("Nombre de tests souhaités : "))
 
 # Déclaration et initialisation de variables
