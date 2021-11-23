@@ -1,10 +1,10 @@
-1# # Définition d'un client réseau rudimentaire
-2# # Ce client dialogue avec un serveur ad hoc
+# Définition d'un client réseau rudimentaire
+# Ce client dialogue avec un serveur ad hoc
 
 import socket, sys
 
 HOST = '192.168.0.13'
-PORT = 50000
+PORT = 2000
 
 # 1) création du socket :
 mySocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
