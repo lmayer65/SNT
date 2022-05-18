@@ -41,7 +41,7 @@ for i in range(width):          # Double boucle permettant de parcourir
         
         ########################################################################    
         
-        imgNew.putpixel((i,j),(red,green,newBlue))  # Modification du pixel en question
+        imgNew.putpixel((i,j),(red,green,blue))  # Modification du pixel en question
 
 # Affiche les deux images
 showImages(imgBase,imgNew)
